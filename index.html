@@ -8,140 +8,135 @@
 	</head>
 	<body class="is-preload">
 		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/ediel.jpeg" alt="ediel" /></a>
-					<h1><strong>Hello, world!</strong> My name is Ediel and I study Computer Science & Engineering at UC Merced.</h1>
-				</div>
-			</header>
+		<header id="header">
+			<div class="inner">
+				<a href="#" class="image avatar"><img src="images/ediel.jpeg" alt="ediel" /></a>
+				<h1><strong>Hello, world!</strong> My name is Ediel and I study Computer Science & Engineering at UC Merced.</h1>
+			</div>
+		</header>
 
 		<!-- Main -->
-			<div id="main">
+		<div id="main">
+			<section id="one">
+				<header class="major">
+					<h2>Student Coordinator | Intern | Mentor</h2>
+				</header>
+				<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+			</section>
 
-			<!-- One -->
-				<section id="one">
-					<header class="major">
-						<h2>Student Coordinator | Intern | Mentor</h2>
-					</header>
-					<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-				</section>
+			<section id="two">
+				<h2>Technical Skill Set</h2>
+				<p>Python, C++, HTML, CSS, Git, SQL, Vim</p>
+			</section>
 
-				<section id="two">
-					<h2>Technical Skill Set</h2>
-					<p>Python, C++, HTML, CSS, Git, SQL, Vim</p>
-				</section>
+			<section id="two">
+				<h2>GitHub Contributions</h2>
+				<!-- Include the library. -->
+				<script
+				src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+				</script>
 
-				<section id="two">
-					<h2>GitHub Contributions</h2>
-					<!-- Include the library. -->
-					<script
-					src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-					</script>
+				<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+				<link rel="stylesheet"
+				href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 
-					<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-					<link rel="stylesheet"
-					href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+				<!-- Prepare a container for your calendar. -->
+				<div class="calendar">
+				<!-- Loading stuff -->
+				Loading the data just for you.
+				</div>
 
-					<!-- Prepare a container for your calendar. -->
-					<div class="calendar">
-					<!-- Loading stuff -->
-					Loading the data just for you.
+				<script>
+				GitHubCalendar(".calendar", "ediellopez2", {global_stats: false, responsive: true });
+				</script>
+			</section>
+
+			<section id="two">
+				<h2>Internship & Work Experience</h2>
+				<div class="row">
+					<article class="col-6 col-12-xsmall work-item">
+						<img class="image fit thumb" src="images/office_1.jpg" alt="" />
+						<h3>Northrop Grumman Corporation</h3>
+						<p>College Technical Intern</p>
+						<p>June 2020 - Present</p>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<img class="image fit thumb" src="images/work_desk_0.jpg" alt="" />
+						<h3>Transfer, Returning, & Veteran Program &#64; UC Merced</h3>
+						<p>Student Coordinator</p>
+						<p>August 2019 - Present</p>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<img class="image fit thumb" src="images/whiteboard.jpg" alt="" />
+						<h3>Tutorial Center &#64; Reedley College</h3>
+						<p>Tutor</p>
+						<p>January 2016 - May 2019</p>
+					</article>
+			</section>
+
+			<section id="two">
+				<h2>Projects</h2>
+				<div class="row">
+					<article class="col-6 col-12-xsmall work-item">
+						<img class="image fit thumb" src="images/code_1.jpg" alt="" />
+						<h3>Find My Hoya</h3>
+						<p>Used Python to track the availability of rare Hoya plants and report the findings to the client over SMS via Twilio.</p>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<img class="image fit thumb" src="images/code_0.jpg" alt="" />
+						<h3>TRV Program Website 2.0</h3>
+						<p>Used HTML and CSS to completely redesign and implement a new version of the Transfer, Returning, and Veteran Program's website.</p>  
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<img class="image fit thumb" src="images/raspberry_pi.jpg" alt="" />
+						<h3>Torbj&ouml;rn</h3>
+						<p>A motion activated defense cannon using a Raspberry Pi, Python, OpenCV, DC 
+							motors, relays, buttons, an electric solenoid valve, and an air compressor.</p>
+					</article>
+				</div>
+			</section>
+
+			<section id="three">
+				<h2>Get In Touch</h2>
+				<div class="row">
+					<div class="col-4 col-12-small">
+						<ul class="labeled-icons">
+							<li>
+								<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+								Merced, CA
+							</li>
+							<li>
+								<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+								<a target="_blank" href="mailto:elopez69@ucmerced.edu">elopez69@ucmerced.edu</a>
+							</li>
+						</ul>
 					</div>
-
-					<script>
-					GitHubCalendar(".calendar", "ediellopez2", {global_stats: false, responsive: true });
-					</script>
-				</section>
-
-				<section id="two">
-					<h2>Internship & Work Experience</h2>
-					<div class="row">
-						<article class="col-6 col-12-xsmall work-item">
-							<img class="image fit thumb" src="images/office_1.jpg" alt="" />
-							<h3>Northrop Grumman Corporation</h3>
-							<p>College Technical Intern</p>
-							<p>June 2020 - Present</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<img class="image fit thumb" src="images/work_desk_0.jpg" alt="" />
-							<h3>Transfer, Returning, & Veteran Program &#64; UC Merced</h3>
-							<p>Student Coordinator</p>
-							<p>August 2019 - Present</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<img class="image fit thumb" src="images/whiteboard.jpg" alt="" />
-							<h3>Tutorial Center &#64; Reedley College</h3>
-							<p>Tutor</p>
-							<p>January 2016 - May 2019</p>
-						</article>
-				</section>
-
-			<!-- Two -->
-				<section id="two">
-					<h2>Projects</h2>
-					<div class="row">
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-							<h3>Find My Hoya</h3>
-							<p>Used Python to track the availability of rare Hoya plants and report the findings to the client over SMS via Twilio.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-							<h3>TRV Program Website 2.0</h3>
-							<p>Used HTML and CSS to completely redesign and implement a new version of the Transfer, Returning, and Veteran Program's website.</p>  
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-							<h3>Torbj&ouml;rn</h3>
-							<p>A motion activated defense cannon using a Raspberry Pi, Python, OpenCV, DC 
-								motors, relays, buttons, an electric solenoid valve, and an air compressor.</p>
-						</article>
-					</div>
-				</section>
-
-			<!-- Three -->
-				<section id="three">
-					<h2>Get In Touch</h2>
-					<div class="row">
-						<div class="col-4 col-12-small">
-							<ul class="labeled-icons">
-								<li>
-									<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-									Merced, CA
-								</li>
-								<li>
-									<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-									<a target="_blank" href="mailto:elopez69@ucmerced.edu">elopez69@ucmerced.edu</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-			</div>
+				</div>
+			</section>
+		</div>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a target="_blank" href="https://www.instagram.com/ediellopez/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a target="_blank" href="https://github.com/ediellopez2" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a target="_blank" href="https://www.linkedin.com/in/ediellopez/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>Ediel Lopez &copy; 2020</li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Images: <a href="https://unsplash.com/">Unsplash</a> &amp; <a href="https://www.pexels.com/">Pexels</a></li>
-					</ul>
-				</div>
-			</footer>
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a target="_blank" href="https://www.instagram.com/ediellopez/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a target="_blank" href="https://github.com/ediellopez2" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/ediellopez/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>Ediel Lopez &copy; 2020</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>Images: <a href="https://unsplash.com/">Unsplash</a> &amp; <a href="https://www.pexels.com/">Pexels</a></li>
+				</ul>
+			</div>
+		</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
